@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#menu{
+    display: flex;
+    justify-content: left;
+    background:blue;
+}
+
+#menu li{
+    display:inline-block;
+    padding:20px 20px;
+    color: white;
+}
+#menu li:hover{
+    background: red;
+    cursor: pointer;
+    
+}
+#menu1{
+    position: relative;
+}
+#menu1 #menu12{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+#menu1:hover #menu12{
+    display: block;
+    box-shadow:0 4px 5px rgb(90, 89, 89);
+}
+#menu12 li{
+    color: black;
+    background: #efefef;;
+    width: 100px;
+    border: 0px rgb(119, 148, 153);
+
+    
+}
+#menu12 li:hover{
+    background: white;
+    opacity: 1;
+}
+#menu12{
+    position: relative;
+}
+#menu12 #menu2{
+    position: absolute;
+    display:none;
+    margin-left: 121px;
+    margin-top: -38px;
+
+}
+#menu12:hover #menu2{
+    display: block;
+}
+#menu2 li{
+    color: black;
+    background: #efefef;;
+    width: 100px;
+    box-shadow:0 4px 5px rgb(90, 89, 89);
+    display: block;
+}
+#giaidap{
+    position: relative;
+}
+#giaidap #giaidap3{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+#giaidap:hover #giaidap3{
+    display: block;
+}
+#giaidap3 li{
+    color: black;
+    background: #efefef;
+    width: 100px;
+    box-shadow:0 4px 5px rgb(90, 89, 89);  
+}
+#giaidap3 li:hover{
+    background: white;
+    opacity: 1;
+}
