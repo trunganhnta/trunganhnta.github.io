@@ -6,6 +6,7 @@
     display: flex;
     justify-content: left;
     background:blue;
+    box-shadow: -30px -50px 30px 10px black;
 }
 
 #menu li{
@@ -31,7 +32,7 @@
 }
 #menu1:hover #menu12{
     display: block;
-    box-shadow:0 4px 5px rgb(90, 89, 89);
+    box-shadow:-50px -60px 4px 5px rgb(90, 89, 89);
 }
 #menu12 li{
     color: black;
