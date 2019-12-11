@@ -1,0 +1,383 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none !important;
+    font-family: "Montserrat",sans-serif;
+    color: #fff;
+    font-size: 1.6 rem;
+    list-style-type: none !important;
+
+}
+body{
+    min-height: 100%;
+    position: relative;
+    background: #17181a;
+    background-size: 1920px;
+    overflow-x: hidden;
+}
+.all{
+    background: #17181a;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.banner{
+    background: dimgray;
+    width: 100%;
+    height: 80px;
+    position: fixed !important;
+    z-index: 9px !important;
+    
+}
+.imgbanner1{
+    float: left;
+   
+}
+.menu{
+    
+    float: left;
+}
+.menus{
+    display: flex;
+    padding-top: 3.5%;
+    z-index: 1000px;
+   
+}
+.menus li a{
+    margin-left: 40px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+   
+}
+.menus li a:hover{
+    color: orangered !important;
+
+}
+.imgbanner2{
+    float: right;
+    margin:20px 15px;
+}
+.imgbanner2 img:hover{
+     margin-top: -20px;
+}
+.avata{
+    margin-top: 70px;
+    float: left;
+    background-image: url(./btl.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 10px #17181a;
+    opacity: 1;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    z-index: 100px;
+    margin-top: -119px;
+    margin-left: 667px;
+}
+.ud{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+.imgud1{
+    float: left;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.imgud2{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.iconud{
+    float: left;
+    margin-top: 63px;
+    margin-left: 250px;
+}
+.iconud a{
+    margin-left:10px ;
+}
+.list{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+    height: 580px;
+}
+.nhanvat{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.hinh{
+    float: left;
+    width: 100%;
+    height: 500px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.nhanvat #bg{
+    float: left;
+    margin-left: 30px;
+    background-image: url(./Background/tuonggach.jpg);
+    color: yellow;
+    width: 196px;
+    height: 47px;
+    padding: 5px 5px;
+    text-align: center;
+}
+.hinh2{
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    height: 410px;
+    width: 260px;
+}
+.hinh2:hover{
+    margin-top: 10px;
+     margin-top: -5px;
+}
+.listvideo{
+    float: left;
+    width: 100%;
+    height: auto;
+    background-image: url(./Background/hehe.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    box-shadow: 5px 5px 10px #17181a,
+    -5px -5px 10px #17181a;
+    opacity: 1;
+    border-radius: 0px 600px 0px 0px;
+    padding-top: 50px;
+    opacity: 1;
+    margin-top:100px;
+}
+.hdc{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    font-size: 25px;
+}
+.hdc #bg{
+    float: left;
+    margin-left: 30px;
+    background-image: url(./Background/tuonggach.jpg);
+    color: yellow;
+    width: 296px;
+    height: 47px;
+    padding: 5px 5px;
+    text-align: center;
+}
+.video{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.video1{   
+    float: left;
+    margin: 30px 0px 0px 141px;
+    width: 350px;
+    height: 400px;
+    
+}
+.video11{
+    float: left;
+    margin-top: -10px !important;
+}
+.video11 #iconvideo:hover{
+      font-size: 105px !important;
+      width: 150px;
+      height: 150px;
+      margin: -180px 0px 0px 125px !important;
+     
+}
+.textvideo1 h4:hover{
+    color: whitesmoke !important;
+    box-shadow: 5px 5px 5px white !important;
+}
+.new{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.tintuc{
+    background: url(./Background/tuonggach.jpg);
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px 0px 30px;
+    padding-top: 5px;
+    
+}
+.listnew{
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.listnewleft{
+    float: left;
+    width: 45%;
+    height: auto;
+}
+.textvideonew:hover{
+    color: whitesmoke !important;
+}
+.listnewright{
+    float: left;
+    width: 45%;
+    height: auto;
+}
+.menunew{
+    height: 60px;
+    width: 99%;
+    float: left;
+}
+.menumenunew{
+    display: flex;
+    width: 99%;
+    height: 90px;
+}
+.menumenunew li{
+    display: block;
+    background: orangered;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+}
+.menumenunew li:hover{
+    background: orange;
+}
+.textlistnewright{
+    float: left;
+    margin-top: 25px;
+    font-size: 19px;
+    color: yellowgreen;
+}
+.textlistnewright a{
+    font-family: 'Calistoga';
+}
+.textlistnewright a:hover{
+    color: whitesmoke !important;
+    cursor: pointer;
+}
+.xemthem:hover{
+    background: dimgray !important;
+}
+.listvideo2{
+    float: left;
+    width: 100%;
+    height: 730px;
+}
+.listvideo21{
+    float: left;
+    margin: 50px 0px 0px 105px;
+    cursor: pointer;
+    width: 28%;
+    height: 225px;
+}
+.listvideo21:hover .textlistvideo21{
+    margin-top: -100px !important;
+}
+.listvideo22{
+    float: left;
+    margin: 50px 0px 0px 35px;
+    cursor: pointer;
+    width: 28%;
+    height: 225px;
+}
+.listvideo22:hover .textlistvideo22{
+    margin-top: -100px !important;
+}
+.listvideo23{
+    float: left;
+    margin: 50px 0px 0px 35px;
+    cursor: pointer;
+    width: 28%;
+    height: 225px;
+}
+.listvideo23:hover .textlistvideo23{
+    margin-top: -100px !important;
+}
+.listvideo24{
+    float: left;
+    margin: 5px 0px 0px 105px;
+    cursor: pointer;
+    width: 28%;
+    height: 225px;
+}
+.listvideo24:hover .textlistvideo24{
+    margin-top: -100px !important;
+}
+.listvideo25{
+    float: left;
+    margin: 5px 0px 0px 35px;
+    cursor: pointer;
+    width: 28%;
+    height: 225px;
+}
+.listvideo25:hover .textlistvideo25{
+    margin-top: -100px !important;
+}
+.map{
+    float: left;
+    width: 100%;
+    height: 1000px;
+    padding-left: 105px;
+}
+.iconmaps1:hover{
+    margin-top: 130px !important;
+}
+.iconmaps2:hover{
+    margin-top: 300px !important;
+}
+.iconmaps3:hover{
+    margin-top: 500px !important;
+}
+.iconmaps4:hover{
+    margin-top: 400px !important;
+}
+.iconmaps5:hover{
+    margin-top: 400px !important;
+}
+.guns{
+    float: left;
+    width: 100%;
+    height: 800px;
+    padding-left: 100px;
+}
+.gunleft{
+    float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.gunright{
+    float: left;
+    width: 53%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.end{
+    float: left;
+    width: 150%;
+    height: 500px;
+
+}
