@@ -1,0 +1,496 @@
+*{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+.all{
+    width: 99.99%;
+    height: auto;
+}
+.container-fluid{
+    padding: 10px 50px !important;
+    background: rgba(7, 24, 38, 0.8);
+    border-bottom: 1px solid #699d82;
+    position: fixed;
+    float: left;
+}
+
+.navbar-nav li{
+    margin-left: 10px !important;
+    margin-top: 2px !important;
+
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li:hover a{
+    color: #a3e90c !important;
+    font-weight: bold;
+}
+.far{
+    font-size: 25px;
+}
+.nap{
+    width:200px ;
+    background: white !important;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px !important;
+    font-weight: bold;
+    margin-right: -50px !important;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.nap:hover{
+    background: #a3e90c !important;
+}
+.tai{
+    width:200px ;
+    background: #a3e90c !important;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px !important;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: -40px !important;
+    margin-left: 60px !important;
+}
+.tai:hover{
+    background: white !important;
+}
+.search{
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px !important;
+    border-radius: 10px;
+    margin-right: 10px !important;
+    border: 1px solid #a3e90c;
+    text-align: center;
+    padding-top: 10px !important;
+    background: darkslategray;
+}
+.avatacauthu{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.avata{
+    width: 100%;
+    height: 740px;
+    background-image: url(./Background/cauthu2.jpg) ;
+    background-size: 100% 100%;
+    float: left;
+}
+.iconleft{
+    float: left;
+    width: 60px;
+    height: 200px;
+    margin-top: 200px !important;
+    position: fixed;
+    margin-left: 20px !important;
+}
+.taigame{
+    float: left;
+    background: #a3e90c;
+    width:280px;
+    height: 70px;
+    margin: -320px 0 0 30% !important;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 15px !important;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.taigame:hover{
+    background: wheat;
+}
+.hocvien{
+    float: left;
+    background: white;
+    width:280px;
+    height: 70px;
+    margin: -320px 0px 0px 52% !important;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 15px !important;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.hocvien:hover{
+    background: #a3e90c;
+}
+.mouse{
+    float: left;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: -160px 0px 0px 630px !important;
+}
+.player{
+    float: left;
+    width: 99.999%;
+    height: 550px;
+    background-image: url(https://cdn.vn.garenanow.com/web/fo4vn/2019-December/ICON/RS_Newicon_1920x650px.png) ;
+    background-size: cover;
+}
+.textplayer{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 150px 0 0 100px !important;
+    width: 60%;
+    height: 100%;
+}
+.textplayer h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    
+}
+.xemngay{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: #1c1f26;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -200px 0 0 100px !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.xemngay:hover{
+    background: whitesmoke !important;
+}
+.tenkhac{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: whitesmoke;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -200px 0 0 420px !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.tenkhac:hover{
+    background: #1c1f26 !important;
+}
+.otw{
+    float: left;
+    width: 99.999%;
+    height: 550px;
+    background-image: url(https://cdn.vn.garenanow.com/web/fo4vn/2019-December/LockerRoom/EndFrame-OTW-1920x650.png) ;
+    background-size: 100% 100%;
+}
+.textotw{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 100px 0 0 140px !important;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.textotw h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a3e90c;
+    margin-bottom: 1rem;
+    font-family: 'Anton', sans-serif;
+    
+}
+.xemngay2{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: #1c1f26;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -13% 0 0 55% !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.xemngay2:hover{
+    background: whitesmoke !important;
+}
+.tinkhac2{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: whitesmoke;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -13% 0 0 76% !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.tinkhac2:hover{
+    background: #1c1f26 !important;
+}
+.sukien{
+    float: left;
+    width: 99.999%;
+    height: 550px;
+    background-image: url(https://cdn.vn.garenanow.com/web/fo4vn/2019-December/DonghanhEACC/KV-DonghanhEACC-1920x650.png) ;
+    background-size: cover;
+}
+.textsukien{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 100px 0 0 100px !important;
+    width: 60%;
+    height: 100%;
+}
+.textsukien h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    
+}
+.xemngay3{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: #1c1f26;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -200px 0 0 100px !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.xemngay3:hover{
+    background: whitesmoke !important;
+}
+.tinkhac3{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: whitesmoke;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -200px 0 0 420px !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.tinkhac3:hover{
+    background: #1c1f26 !important;
+}
+.road{
+    float: left;
+    width: 99.999%;
+    height: 550px;
+    background-image: url(https://cdn.vn.garenanow.com/web/fo4vn/2019-December/RS_Roadtogoal-1920x650.png) ;
+    background-size: cover;
+}
+.textroad{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 100px 0 0 230px !important;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+.textroad h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #a3e90c;
+    margin-bottom: 1rem;
+    font-family: 'Anton', sans-serif;
+    
+}
+.xemngay4{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: #1c1f26;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -250px 0 0 58% !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.xemngay4:hover{
+    background: whitesmoke !important;
+}
+.tinkhac4{
+    float: left;
+    width: 280px;
+    height: 70px;
+    background: whitesmoke;
+    text-align: center;
+    padding-top: 20px !important;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: -250px 0px 0 80% !important;
+    color:#a3e90c ;
+    border: 2px solid #1c1f26;
+}
+.tinkhac4:hover{
+    background: #1c1f26 !important;
+}
+.footer{
+    border-top: 1px solid #a3e90c;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background: black;
+    font-size: 1.6rem;
+    width: 100%;
+    height:auto ;
+    float: left;
+}
+.footer1{
+    width:15%;
+    height: 200px;
+    float: left;
+    padding-left: 5% !important;
+    padding-top: 3% !important;
+}
+.textfooter{
+    width: 85%;
+    height: 280px;
+    float: left;
+    font-size: 15px;
+    color: #898989;
+    padding-top: 15px !important;
+}
+.textfooter a{
+    color: white;
+}
+
+
+
+
+@media all and (max-width: 990px)
+{
+.navbar-nav li{
+        margin-left: 10px !important;
+        margin-top: 2px !important;
+        border-bottom: 1px solid #a3e90c ;
+    }
+.nap{
+    float: right;
+    margin-top: 20px !important;
+    margin-right: 227px !important;
+    }
+.tai{
+    float: right;
+    margin-right: 32px !important;
+    margin-top: 19px !important;
+}
+.avata{
+    width: 99.99%;
+}
+.taigame{
+
+        margin: -300px 0px 0px 120px !important;
+    }
+.hocvien{
+    margin: -300px 0px 0px 410px !important;
+}
+.mouse{
+    margin: -160px 0px 0px 300px !important;
+}
+.container-fluid{
+    background: dimgray;
+}
+.navbar-toggler-icon{
+    color: darksalmon !important;
+    font-size: 30px !important;
+}
+.iconleft{
+    margin-left: 700px !important;
+    margin-top: 132px !important;
+}
+.tai{
+    margin-left: 0px !important;
+}
+.search{
+    display: none;
+}
+.textplayer{
+    padding: 68px 0 0 32px !important;
+    width: 100%;
+}
+.otw{
+    background-size: 637% 100%;
+    background-repeat: no-repeat;
+}
+.textotw{
+    padding: 113px 0 0 24px !important;
+    width: 100%;
+}
+.xemngay2{
+    margin: -19% 0 0 10% !important;
+}
+.tinkhac2{
+    margin: -19% 0 0 55% !important;
+}
+.sukien{
+    background-size: 166% 100%;
+}
+.road{
+    background-repeat: 256% 100%;
+}
+.textroad{
+    padding: 180px 0 0 50px !important;
+    width: 100%;
+}
+.textsukien{
+    padding: 76px 0 0 26px !important;
+    width: 100%;
+}
+.xemngay4{
+    margin: -162px 0 0 10% !important;
+}
+.tinkhac4{
+    margin: -162px 0px 0 50% !important;
+}
+.footer img{
+    width: 65px;
+}
+}
