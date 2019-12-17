@@ -494,3 +494,66 @@
     width: 65px;
 }
 }
+@media all and (max-width: 600px)
+{
+.navbar-toggler-icon{
+        margin-right: -29px !important;
+}
+.tai{
+    margin-top: -51px !important;
+}
+.nap{
+    margin-right: 253px !important;
+}
+.avata{
+        width: 193.99%;
+        background-image: url(./Background/cauthu4.jpg);
+        height: 1250px;
+}
+.taigame{
+    margin: -300px 0px 0px 62px!important;
+}
+.hocvien{
+    margin: -300px 0px 0px 376px!important;
+}
+.mouse {
+    margin: -160px 0px 0px 256px !important;
+}
+.iconleft{
+    margin-left: 632px !important;
+}
+.player{
+    width: 193.99%;
+}
+.xemngay{
+    margin: -200px 0 0 50px !important;
+}
+.tenkhac{
+    margin: -200px 0 0 380px !important;
+}
+.otw{
+    width: 193.99%;
+}
+.sukien{
+    width: 193.99%;
+}
+.road{
+    width: 193.99%;
+}
+.footer
+{
+    width: 193.99%;
+}
+.textfooter{
+    height: auto;
+}
+.xemngay3{
+    margin: -200px 0 0 55px !important;
+}
+.tinkhac3{
+    margin: -200px 0 0 378px !important;
+}
+.tinkhac4 {
+    margin: -162px 0px 0 55% !important;
+}
+}
