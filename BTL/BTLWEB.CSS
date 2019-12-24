@@ -14,6 +14,7 @@ body{
     background: #17181a;
     background-size: 1920px;
     overflow-x: hidden;
+    
 }
 .all{
     background: #17181a;
@@ -21,48 +22,48 @@ body{
     height: auto;
     float: left;
 }
-.banner{
-    background: dimgray;
-    width: 100%;
-    height: 80px;
-    position: fixed !important;
-    z-index: 9px !important;
-    
-}
-.imgbanner1{
+.container-fluid{
+    padding: 0px 50px !important;
+    background-image: url(./Background/head-bg.jpg);
+    border-bottom: 1px solid #699d82;
+    position: fixed;
     float: left;
-   
+    height: 120px;
 }
-.menu{
-    
-    float: left;
+.navbar-brand{
+    margin-left: -50px;
 }
-.menus{
-    display: flex;
-    padding-top: 3.5%;
-    z-index: 1000px;
-   
-}
-.menus li a{
-    margin-left: 40px;
-    display: inline-block;
-    color: white;
-    font-size: 20px;
-   
-}
-.menus li a:hover{
-    color: orangered !important;
+.navbar-nav li{
+    margin-left: 10px !important;
+    margin-top: 2px !important;
 
 }
+.navbar{
+    padding: -0.5rem 0rem !important;
+    margin-left: 20px !important;
+}
+.navbar-nav li a{
+    position: relative;
+    padding-left: 15px;
+    font-size: 17px;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-nav li:hover a{
+    color: orangered !important;
+    font-weight: bold;
+}
+
 .imgbanner2{
     float: right;
-    margin:20px 15px;
+    margin: 4px -95px 0 15px;
 }
-.imgbanner2 img:hover{
+.imgbanner2:hover img{
      margin-top: -20px;
 }
 .avata{
-    margin-top: 70px;
+    margin-top: 114px;
     float: left;
     background-image: url(./Background/btl.jpg);
     width: 100%;
@@ -149,17 +150,52 @@ body{
     margin-top: 10px;
      margin-top: -5px;
 }
+.hinh3{
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    height: 410px;
+    width: 260px;
+}
+.hinh3:hover{
+    margin-top: 10px;
+     margin-top: -5px;
+}
+.hinh4{
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    height: 410px;
+    width: 260px;
+}
+.hinh4:hover{
+    margin-top: 10px;
+     margin-top: -5px;
+}
+.hinh5{
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    height: 410px;
+    width: 260px;
+}
+.hinh5:hover{
+    margin-top: 10px;
+     margin-top: -5px;
+}
 .listvideo{
     float: left;
     width: 100%;
     height: auto;
-    background-image: url(./Background/hehe.jpg);
+    background-image: url(./Background/bansung.jpg);
     background-repeat:no-repeat;
     background-size:100% 100%;
     box-shadow: 5px 5px 10px #17181a,
     -5px -5px 10px #17181a;
     opacity: 1;
-    border-radius: 0px 600px 0px 0px;
     padding-top: 50px;
     opacity: 1;
     margin-top:100px;
@@ -206,7 +242,69 @@ body{
 }
 .textvideo1 h4:hover{
     color: whitesmoke !important;
-    box-shadow: 5px 5px 5px white !important;
+}
+.video2{   
+    float: left;
+    margin: 30px 0px 0px 141px;
+    width: 350px;
+    height: 400px;
+    
+}
+.video21{
+    float: left;
+    margin-top: -10px !important;
+}
+.video21 #iconvideo:hover{
+      font-size: 105px !important;
+      width: 150px;
+      height: 150px;
+      margin: -180px 0px 0px 125px !important;
+     
+}
+.textvideo2 h4:hover{
+    color: whitesmoke !important;
+}
+.video3{   
+    float: left;
+    margin: 30px 0px 0px 141px;
+    width: 350px;
+    height: 400px;
+    
+}
+.video31{
+    float: left;
+    margin-top: -10px !important;
+}
+.video31 #iconvideo:hover{
+      font-size: 105px !important;
+      width: 150px;
+      height: 150px;
+      margin: -180px 0px 0px 125px !important;
+     
+}
+.textvideo3 h4:hover{
+    color: whitesmoke !important;
+}
+.video4{   
+    float: left;
+    margin: 30px 0px 0px 141px;
+    width: 350px;
+    height: 400px;
+    
+}
+.video41{
+    float: left;
+    margin-top: -10px !important;
+}
+.video41 #iconvideo:hover{
+      font-size: 105px !important;
+      width: 150px;
+      height: 150px;
+      margin: -180px 0px 0px 125px !important;
+     
+}
+.textvideo4 h4:hover{
+    color: whitesmoke !important;
 }
 .new{
     margin-left: 100px;
@@ -361,6 +459,7 @@ body{
     height: 800px;
     padding-left: 100px;
 }
+
 .gunleft{
     float: left;
     width: 40%;
@@ -380,4 +479,281 @@ body{
     width: 150%;
     height: 500px;
 
+}
+@media all and (max-width:800px)
+{
+.container-fluid{
+    width: 67% !important;
+}
+.navbar-toggler-icon {
+    margin: -191px 0px 0 558px !important;
+    font-size: 30px;
+}
+.navbar-brand{
+    margin-left: 130px;
+}
+.navbar-nav {
+    background: aqua;
+    margin-top: -41px;
+}
+.img18 img{
+    width: 100px !important;
+}
+.navbar-nav li:hover a{
+    background: orangered !important;
+    font-weight: bold;
+    color: yellowgreen !important;
+}
+.imgbanner2{
+    display: none;
+}
+.icon{
+    margin-top: -161px;
+    margin-left: 349px;
+}
+.ud{
+    height: 1px;
+}
+.imgud1 
+{
+    display: none;
+}
+.imgud2
+{
+    display: none;
+}
+.iconud{
+    margin-top: 14px;
+    margin-left: 74%;
+}
+.list{
+    height: 480px;
+}
+.hinh{
+    margin-top: 10px;
+}
+.hinh2 {
+    margin-left: 0px;
+    margin-top: 60px;
+    height: 410px;
+    width: 251px;
+    margin-right: -38px;
+}
+.hinh2 img{
+    width: 205px !important;
+    height: 352px !important;
+}
+.hinh3 {
+    margin-left: 0px;
+    margin-top: 60px;
+    height: 410px;
+    width: 251px;
+    margin-right: -38px;
+}
+.hinh3 img{
+    width: 205px !important;
+    height: 352px !important;
+}
+.hinh4 {
+    margin-left: 0px;
+    margin-top: 60px;
+    height: 410px;
+    width: 251px;
+    margin-right: -38px;
+}
+.hinh4 img{
+    width: 205px !important;
+    height: 352px !important;
+}
+.hinh5{
+    display: none;
+}
+.listvideo{
+    background-size: 100% 104%;
+    height: 642px;
+}
+.video1 img{
+    width: 217px !important;
+}
+.textvideo1 h4{
+    font-size: 18px !important;
+}
+.iconvideo11 i{
+    margin: -6px 0px 0px 76px !important;
+}
+.video2{
+    margin: -400px 0px 0px 62% !important;
+}
+.video2 img{
+    width: 217px !important;
+}
+.textvideo2 h4{
+    font-size: 18px !important;
+}
+.iconvideo21 i{
+    margin: -6px 0px 0px 76px !important;
+}
+.video3{
+    margin: -20% 0px 0px 141px;
+}
+.video3 img{
+    width: 217px !important;
+}
+.textvideo3 h4{
+    font-size: 18px !important;
+}
+.iconvideo31 i{
+    margin: -6px 0px 0px 76px !important;
+}
+.video4{
+    margin: -53% 0px 0px 62%;
+}
+.video4 img{
+    width: 217px !important;
+}
+.textvideo4 h4{
+    font-size: 18px !important;
+}
+.iconvideo41 i{
+    margin: -6px 0px 0px 76px !important;
+}
+.imglistleft img{
+    width: 71%;
+}
+.textvideonew{
+    font-size: 13px !important;
+    width: 100%;
+}
+.menumenunew {
+    margin-left: -76px;
+}
+.menumenunew li {
+    width: 90px;
+    height: 30px;
+    margin-left: 8px;
+}
+.tb{
+    margin: 25px 0px 0px -384px !important;
+}
+.textlistnewright {
+    margin-left: -61px;
+    font-size: 17px;
+}
+.listnewright {
+    height: 418px;
+}
+.listvideo2{
+    height: 840px;
+}
+.listvideo21{
+    margin-right: 170px;
+}
+.listvideo21 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo21{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+
+}
+.listvideo22{
+    margin-right: 170px;
+    margin-left: 59% !important;
+    margin-top: -230px;
+}
+.listvideo22 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo22{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+
+}
+.listvideo23{
+    margin-left: 14% !important;
+    margin-top: 25px;
+}
+.listvideo23 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo23{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+
+}
+.listvideo24{
+    margin-left: 59% !important;
+    margin-top: -230px;
+}
+.listvideo24 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo24{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+}
+.listvideo25{
+    margin-left: 14% !important;
+    margin-top: 7px;
+}
+.listvideo25 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo25{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+}
+.listvideo26{
+    margin-left: 59% !important;
+    margin-top: -225px;
+}
+.listvideo26 img{
+    width: 310px !important;
+    height: 177px;
+    margin-left: -42px;
+}
+.textlistvideo26{
+    width: 310px !important;
+    height: 50px;
+    margin: -55px 0px 0px -45px !important;
+    font-size: 20px;
+}
+.imgmap{
+    margin: 50px 0px 0px -70px !important;
+}
+.iconmaps2{
+    display: none;
+}
+.guns {
+    height: 557px;
+}
+.gunleft img{
+    width: 66px;
+}
+.gunright img{
+    width: 339px;
+}
+.imgend{
+    margin-left: -29%;
+}
 }
